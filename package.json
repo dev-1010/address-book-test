@@ -1,0 +1,45 @@
+{
+  "name": "strv-addressbook-deepak-mishra",
+  "version": "1.0.0",
+  "description": "Application to manage user contacts",
+  "author": "Deepak Mishra",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.18.1 <14",
+    "npm" : "~6.14.5"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "export NODE_ENV=test || SET \"NODE_ENV=test\" && mocha app/**/*.test.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "node js",
+    "express",
+    "jwt",
+    "authentication",
+    "mysql"
+  ],
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase": "^8.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.3.2",
+    "mysql2": "^2.2.5",
+    "node-input-validator": "^4.4.1",
+    "sequelize": "^5.21.3",
+    "swagger-jsdoc": "^5.0.1",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0"
+  }
+}
